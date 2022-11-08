@@ -1,0 +1,15 @@
+Emri i databazes: miamore
+
+Tabela e adminit:
+
+Emri i tabeles admin, 
+     id, username, password
+
+Emri i tabeles: produki,
+       produkt_id , produkt_title , produkt_qmimi , produkt_image , produkt_content
+
+Emri i tabeles: regjistrimi,
+       id , emri , passwordi , confirmPassword
+
+Emri i tabeles : rezervimi
+       id , emri , tel , guests 

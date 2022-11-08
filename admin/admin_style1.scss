@@ -1,0 +1,158 @@
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --main-color: #be9c79;
+  --black: #333;
+  --white: #fff;
+  --light-color: #666;
+  --border: 0.2rem solid var(--black);
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+a {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+a:hover {
+  color: white;
+}
+
+#header {
+  width: 100%;
+  background: #b39373;
+  height: 90px;
+  position: relative;
+}
+#sidebar {
+  width: 200px;
+  float: left;
+  background: #b39373;
+  height: 100%;
+}
+
+#sidebar h2 {
+  font-size: 1em;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+}
+
+#header h1 {
+  color: black;
+  font-size: 3em;
+  font-family: comic sans MS;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#welcome {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+.log-out {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 90%;
+  position: relative;
+  top: -50px;
+  color: white;
+}
+
+.add-new {
+  color: white;
+  font-size: 16px;
+  text-align: left;
+}
+
+.view {
+  color: white;
+  font-size: 16px;
+}
+
+.logo1 {
+  width: 250px;
+  height: 60px;
+  position: relative;
+  top: 20px;
+}
+
+.both-divs {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 600px;
+  background: rgba(141, 138, 138, 0.56);
+  border-radius: 13px;
+  width: 650px;
+  height: 500px;
+  padding-top: 30px;
+}
+
+.left-side-div {
+  display: flex;
+  flex-direction: column;
+}
+.add-new1 {
+  margin-top: -40px;
+  margin-left: 50%;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+}
+
+.table1{
+  background-color: #d8b999;
+}
+
+.view-products{
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+}
+
+.btn-Addnew {
+  width: 130px;
+  height: 40px;
+  color: rgb(141, 138, 138);
+  background-color: white;
+  border: none;
+  border-radius: 13px;
+  margin-left: 820px;
+  margin-top: 20px;
+}
+.h4 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 23px;
+}
+
+textarea {
+  padding-left: 20px;
+  border: none;
+  border-radius: 13px;
+}
+
+.divs-of-divs {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 20px;
+}
+
+.td-color .view-prod h1 {
+  background: pink;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
